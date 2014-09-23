@@ -1,0 +1,30 @@
+{
+  "name": "lunchscraper-gulp",
+  "version": "0.0.1",
+  "description": "Scrapes lunch menues on the web with gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikael Brassman",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "event-stream": "^3.1.7",
+    "gulp": "^3.8.8",
+    "gulp-download": "0.0.1",
+    "gulp-open": "^0.2.8",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.3",
+    "gulp-tap": "^0.1.1",
+    "gulp-util": "^3.0.1",
+    "jade": "^1.7.0",
+    "lodash": "^2.4.1",
+    "q": "^1.0.1",
+    "request": "^2.44.0",
+    "run-sequence": "^0.3.7",
+    "string": "^2.1.0",
+    "through2": "^0.6.2",
+    "vinyl": "^0.4.3"
+  }
+}

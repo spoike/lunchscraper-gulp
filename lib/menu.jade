@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title= title
+    link(href="main.css" rel="stylesheet" type="text/css")
+  body
+    h1= title
+    h2
+      | Vecka&nbsp;&mdash;&nbsp;
+      = week
+    table
+      each day in days
+        tr
+          th= day.title
+        each item in day.menu
+          tr
+            td= item
+
