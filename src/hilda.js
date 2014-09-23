@@ -23,7 +23,8 @@ exports.scrape = function(body) {
         scrapedMenu = {
             title: "Restaurang Hilda",
             week: 1,
-            days: []
+            days: [],
+            isMultiLanguage: false
         },
         day;
 
